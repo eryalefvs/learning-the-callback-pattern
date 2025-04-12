@@ -22,7 +22,7 @@ soma(2, 3, (res) => {
 ```
 ---
 
-## Síncrono e Assíncrono
+## ⏳Síncrono e Assíncrono
 Precisamos entender esses dois conceitos: o processamento síncrono é aquele que acontece em sequência e ordenado, seguindo uma fila, e o outro processamento assíncrono só começa após o atual ser concluído. Isso acontece nos navegadores que fazem o carregamento dos arquivos e recursos de forma ordenada, onde um carregamento só começa após o outro ter sido concluído.
 
 Já o processamento assíncrono é quando os processos são executados ao mesmo tempo, sem nada que impeça de outro começar enquanto o que foi iniciado anteriormente termine. Assim um processo pode iniciar mesmo que outro esteja em execução. Isso acontece muito no enviado de mensagens ou emails, podemos enviar uma mensagem, porém a mesma ai nem tenha chegado ao destino e mesmo assim podemos já criar e mandar outra mensagem. **O Node.JS usa o processamento assíncrono**
